@@ -146,7 +146,7 @@ Both boards were assembled, brought up, and validated in full-rover integration 
 
 ## Team
 
-Designed by the NYU Tandon Lunabotics electrical team.
+Designed by the NYU Tandon RDT electrical team.
 - Owen Chang
 - Elizaveta Koroza
 - Yuyan Luo
