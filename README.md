@@ -128,7 +128,7 @@ Amplified outputs are routed through an **analog multiplexer** into the Teensy A
 
 ## Getting Started
 
-1. Install [KiCad](https://www.kicad.org/) (version: _TODO_).
+1. Install [KiCad](https://www.kicad.org/) (version 9.0).
 2. Open the schematic or PCB file in `control-board/` or `power-distribution-board/`.
 
 ---
