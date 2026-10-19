@@ -116,14 +116,11 @@ Amplified outputs are routed through an **analog multiplexer** into the Teensy A
 ```
 .
 ├── control-board/
-│   ├── kicad/          # schematic + PCB layout
-│   ├── gerbers/        # fabrication outputs
-│   └── bom/            # bill of materials
-├── power-board/
-│   ├── kicad/
-│   ├── gerbers/
-│   └── bom/
-├── firmware/           # Teensy firmware
+│   ├── *.kicad_sch     # schematic
+│   └── *.kicad_pcb     # PCB layout
+├── power-distribution-board/
+│   ├── *.kicad_sch     # schematic
+│   └── *.kicad_pcb     # PCB layout
 └── README.md
 ```
 
@@ -131,15 +128,8 @@ Amplified outputs are routed through an **analog multiplexer** into the Teensy A
 
 ## Getting Started
 
-### Opening the designs
 1. Install [KiCad](https://www.kicad.org/) (version: _TODO_).
-2. Open `control-board/kicad/*.kicad_pro` or `power-board/kicad/*.kicad_pro`.
-
-### Fabrication
-Gerbers and drill files are in each board's `gerbers/` folder. Both boards are two-layer.
-
-### Firmware
-_TODO: build/upload instructions (Arduino IDE), Jetson I²C address, CAN bus settings._
+2. Open the schematic or PCB file in `control-board/` or `power-distribution-board/`.
 
 ---
 
@@ -156,7 +146,7 @@ Both boards were assembled, brought up, and validated in full-rover integration 
 
 ## Team
 
-Designed by the NYU Tandon RDT electrical team.
+Designed by the NYU Tandon Lunabotics electrical team.
 - Owen Chang
 - Elizaveta Koroza
 - Yuyan Luo
@@ -168,4 +158,4 @@ Designed by the NYU Tandon RDT electrical team.
 
 ## License
 
-_TODO: add a license_
+_TODO: add a license (e.g., CERN-OHL-P for hardware, MIT for firmware)._
