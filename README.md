@@ -1,4 +1,4 @@
-# Lunabotics Rover Electronics
+# RDT Lunabotics Rover Electronics
 
 Custom PCBs for our NASA Lunabotics rover: a **Teensy 4.1 control board** that connects the autonomy computer to every actuator and sensor, and a **power distribution board** that supplies, protects, and monitors power across the rover.
 
@@ -155,7 +155,4 @@ Designed by the NYU Tandon RDT electrical team.
 - Jason Qin
 - Eric Wang
 - Bonnie Wu
-
-## License
-
-_TODO: add a license (e.g., CERN-OHL-P for hardware, MIT for firmware)._
+  
